@@ -1,0 +1,14 @@
+# dataset: mssd-3d-all
+embedder: GCSAN
+# val_epoch: 5
+# n_epochs: 30
+batch_size: 512
+hidden_size: 100
+embedding_dim: 100
+n_layers: 1
+lr: 0.001
+loss_type: CE
+lamb: 0.1
+maxlen: 19
+n_heads: 1
+dropout1: 0.25

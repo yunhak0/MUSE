@@ -1,0 +1,22 @@
+# dataset: mssd-3d-all
+embedder: CL4SRec
+# n_epochs: 30
+# val_epoch: 5
+batch_size: 512
+hidden_size: 100
+n_layers: 1
+n_heads: 1
+final_act: relu
+embedding_dim: 100
+lr: 0.001
+loss_type: CE
+dropout0: 0.0
+dropout1: 0.0
+crop_r: 0.1
+mask_r: 0.7
+reorder_r: 0.4
+temperature: 5
+sim: cos
+maxlen: 19
+lamb: 0.9
+augmentation: True

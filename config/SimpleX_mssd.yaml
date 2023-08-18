@@ -1,0 +1,18 @@
+# dataset: mssd-3d-all
+embedder: SimpleX
+# val_epoch: 5
+# n_epochs: 30
+batch_size: 512
+hidden_size: 100
+embedding_dim: 100
+n_layers: 1
+dropout0: 0.0
+dropout1: 0.0
+lr: 0.001
+loss_type: CE
+aggregator: mean
+neg_weight: 1000
+n_neg: 100
+margin: 0.4
+gamma: 0.5
+reg_weight: 1e-09

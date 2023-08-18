@@ -1,0 +1,20 @@
+# dataset: mssd-3d-all
+embedder: MUSE
+# n_epochs: 30
+# val_epoch: 5
+batch_size: 512
+hidden_size: 100
+embedding_dim: 100
+n_layers: 1
+dropout0: 0.0
+dropout1: 0.0
+lr: 0.001
+loss_type: CE
+prob: 1.0
+warm_up_epoch: 1
+repr_loss_type: MSE
+inv-coeff: 1.0
+var-coeff: 1.0
+cov-coeff: 10.0
+alpha: 0.2
+reorder_r: 0.5

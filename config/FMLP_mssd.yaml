@@ -1,0 +1,15 @@
+# dataset: mssd-3d-all
+embedder: FMLP
+val_epoch: 1
+# n_epochs: 30
+batch_size: 512
+hidden_size: 100
+embedding_dim: 100
+n_layers: 1
+dropout0: 0.0
+dropout1: 0.0
+loss_type: CE
+lr: 0.001
+# specific
+maxlen: 19
+n_heads: 1

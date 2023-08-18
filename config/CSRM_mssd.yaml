@@ -1,0 +1,15 @@
+# dataset: mssd-3d-all
+embedder: CSRM
+# val_epoch: 5
+# n_epochs: 30
+batch_size: 512
+hidden_size: 100
+embedding_dim: 100
+n_layers: 1
+dropout0: 0.25
+dropout1: 0.0
+lr: 0.001
+loss_type: CE 
+# specific
+memory_size: 512
+memory_dim: 100
