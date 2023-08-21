@@ -7,7 +7,7 @@
         <img src="https://img.shields.io/badge/CIKM'23-green" /></a>
 </p>
 
-The official source code for "[MUSE: Music Recommender System with Shuffle Play Recommendation Enhancement]()", accepted at CIKM 2023.
+The official source code for "[MUSE: Music Recommender System with Shuffle Play Recommendation Enhancement](https://arxiv.org/abs/2308.09649)", accepted at CIKM 2023.
 
 
 ## Overview
