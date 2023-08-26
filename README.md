@@ -30,11 +30,14 @@ Recommender systems have become indispensable in music streaming services, enhan
 * `tqdm`: 4.65.0
 * `pyarrow`: 11.0.0 or `fastparquet`: 2023.4.0 (for preprocessing)
 
+:computer: You can create the conda environment using the `muse.yaml` file.
+> conda env create --file muse.yaml
+
 
 ## Data Preprocessing
 
 Data is available in the [original challenge](https://www.aicrowd.com/challenges/spotify-sequential-skip-prediction-challenge) with [published paper](https://arxiv.org/pdf/1901.09851.pdf)[1].
-For the data preprocessing, please refer in './data/mssd-org/README.md' file.
+For the data preprocessing, please refer to the `./data/mssd-org/README.md` file.
 
 :hourglass: You can find the preprocessed data [here](https://drive.google.com/drive/folders/1D6OTdSsgRcVvTn-WD98FfiJpPNd6mGtm?usp=drive_link).
 
@@ -43,7 +46,7 @@ For the data preprocessing, please refer in './data/mssd-org/README.md' file.
 
 > python main.py
 
-The arguments and its description is in './utils/argument.py' file.
+The arguments and its description are in the `./utils/argument.py` file.
 
 
 ## Reference
